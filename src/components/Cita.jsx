@@ -17,7 +17,7 @@ const cita = ({cita, eliminarCita}) => (
   
 )
 
-ita.propTypes = {
+cita.propTypes = {
     cita: PropTypes.object.isRequired,
     eliminarCita: PropTypes.func.isRequired
 }
